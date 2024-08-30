@@ -89,7 +89,7 @@ def get_details_by_id(image_id):
                 "obj_link": file_association.obj_file_path,
                 "image_link": img_link,
                 "calculation_results" : file_association.calculation_results,
-                "message": "data is being send"  # Add any other fields you want
+                "message": "data is being send"
             }
 
             return jsonify(details)
